@@ -17,8 +17,8 @@ Alpha = 286*1.648777*1e-41              # polarizability   C m2/V
 w0 = 40e-6                              # focussed beam waist of lattice laser
 P0 = 0.63                                # Lattice power in watt
 
-E_r = ((hbar)**2)*(k**2)/(2*87.91*m_p)                   # Recoil energy
-V0 = (Alpha*4*P0)/(epsilon*c*np.pi*(w0**2))       #Trap depth
+E_r = ((hbar)**2)*(k**2)/(2*87.91*m_p)          # Recoil energy
+V0 = (Alpha*4*P0)/(epsilon*c*np.pi*(w0**2))     #Trap depth
 T0 =1e6*V0/k_b                                  # Trap depth in temperature
 s=V0/E_r                                        # Trap depth in E_r
 
